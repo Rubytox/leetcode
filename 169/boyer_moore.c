@@ -19,11 +19,4 @@ int majorityElement(int* nums, int numsSize) {
     // We could stop now because we know there is a majority element
     // But we should check if it is a majority element indeed
     return candidate;
-    /*
-    int condition = numsSize / 2 + 1;
-    int appearances = 0;
-    for (int i = 0; i < numsSize; i++)
-        if (nums[i] == candidate)
-            appearances++;
-    return appearances >= condition;*/
 }
