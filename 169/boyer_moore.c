@@ -15,6 +15,7 @@ int majorityElement(int* nums, int numsSize) {
             counter--;
     }
 
+
     // Now candidate contains a potential majority element
     // We could stop now because we know there is a majority element
     // But we should check if it is a majority element indeed
